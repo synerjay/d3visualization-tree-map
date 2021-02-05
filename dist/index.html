@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - D3 TreeMap</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="container">
+<div id="left-side">
+<h2 id="title">Highest Grossing Movies of All Time</h2>
+  <p id="description">Top 95 Highest Grossing Movies Sorted by Genre</p>
+<svg id="canvas"></svg>
+</div>
+
+
+<div id="right-side">
+<div id="tooltip">HELLO</div>
+<svg id="legend">
+    <g>
+      <rect class="legend-item" x="10" y="0" width="40" height="40" fill="orange"></rect>
+      <text x="60" y="20" fill="white">Action</text> 
+    </g>
+     <g>
+      <rect class="legend-item" x="10" y="40" width="40" height="40" fill="lightgreen"></rect>
+      <text x="60" y="60" fill="white">Drama</text> 
+    </g>
+     <g>
+      <rect class="legend-item" x="10" y="80" width="40" height="40" fill="coral"></rect>
+      <text x="60" y="100" fill="white">Adventure</text> 
+    </g>
+     <g>
+      <rect class="legend-item" x="10" y="120" width="40" height="40" fill="lightblue"></rect>
+      <text x="60" y="140" fill="white">Family</text> 
+    </g>
+     <g>
+      <rect class="legend-item" x="10" y="160" width="40" height="40" fill="pink"></rect>
+      <text x="60" y="180" fill="white">Animation</text> 
+    </g>
+     <g>
+      <rect class="legend-item" x="10" y="200" width="40" height="40" fill="khaki"></rect>
+      <text x="60" y="220" fill="white">Comedy</text> 
+    </g>
+     <g>
+      <rect class="legend-item" x="10" y="240" width="40" height="40" fill="tan"></rect>
+      <text x="60" y="260" fill="white">Biography</text> 
+    </g>
+</svg>
+  
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/d3/6.3.1/d3.min.js'></script>
+<script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
